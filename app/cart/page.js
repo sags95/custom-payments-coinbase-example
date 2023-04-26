@@ -58,7 +58,7 @@ export default function Cart() {
 
                                             <button
 
-                                                className="block rounded dark:bg-red-400 px-5 py-3 text-sm text-gray-100 transition dark:hover:bg-red-500"
+                                                className="block dark:bg-red-700 px-5 py-3 text-sm text-gray-100 transition dark:hover:bg-red-800"
                                             >
                                                 Checkout
                                             </button>
