@@ -2,8 +2,8 @@
 import ProductCard from "./productCard"
 import { fetchProducts } from "@/utils/fetchProducts"
 
-export default async function ProductGrid({ categoryId, limit }) {
-  const { products, category } = await fetchProducts(categoryId, limit);
+export default async function ProductGrid({ categoryId }) {
+  const { products, category } = await fetchProducts(categoryId, 4);
 
   const renderProducts = products.map((item, index) => {
     const productImg = item.images && item.images[0] && item.images[0].file.url

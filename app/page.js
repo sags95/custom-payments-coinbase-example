@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <CategoryGrid/>
-    <ProductGrid />
+    <ProductGrid categoryId={'coffee'}/>
     </>
   )
 }
